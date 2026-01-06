@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #020617;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #334155;
+    text-align: left;
+}
+
+th {
+    background: #1e293b;
+}

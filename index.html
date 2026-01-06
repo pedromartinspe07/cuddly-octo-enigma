@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela Fictícia - Marvel & DC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tabela de Elementos Fictícios</h1>
+
+<div class="filtros">
+    <select id="universoFiltro">
+        <option value="Todos">Todos</option>
+        <option value="Marvel">Marvel</option>
+        <option value="DC">DC</option>
+    </select>
+
+    <select id="tipoFiltro">
+        <option value="Todos">Todos</option>
+        <option value="Metal">Metal</option>
+        <option value="Mineral">Mineral</option>
+        <option value="Energia">Energia</option>
+        <option value="Químico">Químico</option>
+        <option value="Biológico">Biológico</option>
+    </select>
+
+    <button onclick="filtrar()">Filtrar</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Universo</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+            <th>Origem</th>
+        </tr>
+    </thead>
+    <tbody id="tabelaElementos"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
